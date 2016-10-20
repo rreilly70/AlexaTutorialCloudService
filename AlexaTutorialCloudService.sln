@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2CD761DD-AA7A-4A00-A62F-E9E52466747D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{259B924F-D2BE-4506-B737-87703E1589C2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AlexaTutorialCloudService", "src\AlexaTutorialCloudService\AlexaTutorialCloudService.xproj", "{D2CFEBE9-5AB5-48E7-BF12-CFFE5E3509BF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AlexaApiObjects", "src\AlexaApiObjects\AlexaApiObjects.xproj", "{BF6E585C-F700-4339-A371-DD976AFF41FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2CFEBE9-5AB5-48E7-BF12-CFFE5E3509BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CFEBE9-5AB5-48E7-BF12-CFFE5E3509BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CFEBE9-5AB5-48E7-BF12-CFFE5E3509BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CFEBE9-5AB5-48E7-BF12-CFFE5E3509BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6E585C-F700-4339-A371-DD976AFF41FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6E585C-F700-4339-A371-DD976AFF41FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6E585C-F700-4339-A371-DD976AFF41FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6E585C-F700-4339-A371-DD976AFF41FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2CFEBE9-5AB5-48E7-BF12-CFFE5E3509BF} = {2CD761DD-AA7A-4A00-A62F-E9E52466747D}
+	EndGlobalSection
+EndGlobal
